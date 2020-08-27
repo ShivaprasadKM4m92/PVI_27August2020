@@ -1,0 +1,9 @@
+[t38]
+SnapshotXmlFile=snapshot_38.xml
+FileName1=t38.jpg
+URL1=http://10.100.22.243:8081/assets/pv-btn-bg3-1e05f4eeb9f3efb885b2c05a0bea4ab4.jpg
+Total=1
+RequestHeaderFile=t38_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t38_ResponseHeader.txt
+ContentType=image/jpeg

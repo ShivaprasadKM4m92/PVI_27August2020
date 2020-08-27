@@ -1,0 +1,11 @@
+[t65]
+FileName1=t65_list-24eb5f840484c7ed5a76f95c9fe17ba2.css
+URL1=http://10.100.22.243:8081/assets/list/list-24eb5f840484c7ed5a76f95c9fe17ba2.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_65.xml
+RequestHeaderFile=t65_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t65_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

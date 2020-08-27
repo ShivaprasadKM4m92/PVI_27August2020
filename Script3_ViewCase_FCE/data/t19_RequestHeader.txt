@@ -1,0 +1,10 @@
+GET /assets/common/change-theme-d6b58272d1305acd108c19d477017de0.js HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.34:8083/?token=b8301d8f-85e0-45c9-9ec2-57ac25e57099
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=982429132EFBAA8B9BD03F0DE35515E3; AuthType=Database; SESSION=ce292532-29c7-48d1-8792-3e8dd102f720
+

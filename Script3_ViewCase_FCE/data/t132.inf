@@ -1,0 +1,11 @@
+[t132]
+FileName1=t132_fetchAllUser.json
+URL1=http://10.100.22.243:8081/user/fetchAllUser?_=1598424144703
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_132.xml
+RequestHeaderFile=t132_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t132_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

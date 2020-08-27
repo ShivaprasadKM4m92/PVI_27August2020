@@ -1,0 +1,11 @@
+[t7]
+FileName1=t7_jquery.core-2521768e514d3a431ddca828a1bebd3c.html
+URL1=http://10.100.22.34:8083/assets/common/jquery.core-2521768e514d3a431ddca828a1bebd3c.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_7.xml
+RequestHeaderFile=t7_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t7_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t67]
+SnapshotXmlFile=snapshot_67.xml
+FileName1=t67.gif
+URL1=http://10.100.22.243:8081/assets/excel-a40ce78cdd86cac8004163bf736802da.gif
+Total=1
+RequestHeaderFile=t67_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t67_ResponseHeader.txt
+ContentType=image/gif
+FrameIndex1=0
+UseFrameIndex=1

@@ -1,0 +1,11 @@
+GET /assets/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2?v=4.7.0 HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+Origin: http://10.100.22.34:8083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.34:8083/assets/application-3d87bac6ca7e570033e3b49e320180b2.css
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=982429132EFBAA8B9BD03F0DE35515E3; AuthType=Database; SESSION=ce292532-29c7-48d1-8792-3e8dd102f720
+

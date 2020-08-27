@@ -1,0 +1,15 @@
+POST /fuq/fuqListForCase HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Content-Length: 1454
+Accept: application/json, text/javascript, */*; q=0.01
+X-CSRF-TOKEN: b0e87b62-6d3c-4d14-9bc9-1d45d79cac08
+X-Requested-With: XMLHttpRequest
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Content-Type: application/json
+Origin: http://10.100.22.243:8081
+Referer: http://10.100.22.243:8081/caseEntry/show/244399?openAccordion=true
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=2073dc52-5ccb-4774-9414-801876d022e2; AuthType=Database
+

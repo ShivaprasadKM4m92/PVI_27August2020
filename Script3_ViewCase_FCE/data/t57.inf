@@ -1,0 +1,9 @@
+[t57]
+SnapshotXmlFile=snapshot_57.xml
+FileName1=t57.jpg
+URL1=http://10.100.22.243:8081/assets/section-hd-bg-8eaf77fc4a1a47c48ca4b2e3d5a96340.jpg
+Total=1
+RequestHeaderFile=t57_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t57_ResponseHeader.txt
+ContentType=image/jpeg

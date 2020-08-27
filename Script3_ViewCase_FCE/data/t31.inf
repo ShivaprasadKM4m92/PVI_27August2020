@@ -1,0 +1,11 @@
+[t31]
+FileName1=t31_dashboard-manifest-10f1ed9d89cf396671bd4e3042b74253.html
+URL1=http://10.100.22.243:8081/assets/app/dashboard/dashboard-manifest-10f1ed9d89cf396671bd4e3042b74253.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_31.xml
+RequestHeaderFile=t31_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t31_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t87]
+FileName1=t87_loadServerTime.json
+URL1=http://10.100.22.243:8081/config/loadServerTime?_=1598424027036
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_87.xml
+RequestHeaderFile=t87_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t87_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

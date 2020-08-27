@@ -1,0 +1,11 @@
+[t106]
+FileName1=t106_case-entry-manifest-326b4b6f7e313829e23e4a6c86b40dfb.html
+URL1=http://10.100.22.243:8081/assets/app/case-entry/case-entry-manifest-326b4b6f7e313829e23e4a6c86b40dfb.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_106.xml
+RequestHeaderFile=t106_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t106_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

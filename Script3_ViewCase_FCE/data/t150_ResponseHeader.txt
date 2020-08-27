@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:59:16 GMT
+ETag: "vendor/documentViewerTemplates/redactionReasonTemplate-f3726f9e2070428e930d86bb85cf1a97.html"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Type: text/html;charset=utf-8
+Content-Length: 246
+Date: Wed, 26 Aug 2020 06:43:37 GMT
+

@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 03:00:32 GMT
+ETag: "app/list/list-manifest-185621e31c59b25205353c6a318d5899.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=utf-8
+Content-Length: 57817
+Date: Wed, 26 Aug 2020 06:40:25 GMT
+

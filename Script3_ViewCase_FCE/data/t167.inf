@@ -1,0 +1,11 @@
+[t167]
+FileName1=t167.html
+URL1=http://10.100.22.34:8083/external
+Total=1
+RequestHeaderFile=t167_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t167_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_167.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

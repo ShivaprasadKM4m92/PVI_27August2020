@@ -1,0 +1,11 @@
+[t15]
+FileName1=t15.html
+URL1=http://10.100.22.34:8083/?token=b8301d8f-85e0-45c9-9ec2-57ac25e57099
+Total=1
+RequestHeaderFile=t15_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t15_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_15.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

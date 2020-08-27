@@ -1,0 +1,9 @@
+[t32]
+SnapshotXmlFile=snapshot_32.xml
+FileName1=t32.png
+URL1=http://10.100.22.243:8081/assets/PVIntake-241ae46808f3515f2be1c0c88ee0773b.png
+Total=1
+RequestHeaderFile=t32_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t32_ResponseHeader.txt
+ContentType=image/png
