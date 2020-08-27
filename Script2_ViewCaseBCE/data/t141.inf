@@ -1,0 +1,11 @@
+[t141]
+FileName1=t141_en-US.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json?_=1598510488249
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_141.xml
+RequestHeaderFile=t141_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t141_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t86]
+FileName1=t86.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html?_=1598510381994
+Total=1
+RequestHeaderFile=t86_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t86_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_86.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:58:06 GMT
+ETag: "app/case-entry/case-entry-manifest-0691008e616302be087a77f0c4f6bc2a.css"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: text/css;charset=utf-8
+Content-Length: 4604
+Date: Thu, 27 Aug 2020 06:40:55 GMT
+

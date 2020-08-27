@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\ViewCaseBCE
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\viewcasebce\\logfile.log
+c:\project\pvi\scripts\viewcasebce\\combined_ViewCaseBCE.c
+c:\project\pvi\scripts\viewcasebce\\pre_cci.c

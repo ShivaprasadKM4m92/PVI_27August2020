@@ -1,0 +1,11 @@
+[t138]
+FileName1=t138_getActionViewList.json
+URL1=http://10.100.22.243:8081/case/getActionViewList?pageId=3&templateId=1&sourceDbId=1&_=1598510459620
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_138.xml
+RequestHeaderFile=t138_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t138_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

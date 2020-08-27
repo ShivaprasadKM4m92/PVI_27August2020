@@ -1,0 +1,11 @@
+GET /assets/vendor/documentViewerTemplates/downloadOverlayTemplate.html?_=1598510459604 HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://10.100.22.243:8081/caseEntry/show/244399?openAccordion=true
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=d7fd1721-75be-42b8-93dd-be57f40e74fc; AuthType=Database
+

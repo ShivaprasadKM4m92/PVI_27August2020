@@ -1,0 +1,11 @@
+[t43]
+FileName1=t43_glyphicons-halflings-regular-448c34a56d699c29117adc64c43affeb.html
+URL1=http://10.100.22.243:8081/assets/glyphicons-halflings-regular-448c34a56d699c29117adc64c43affeb.woff2
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_43.xml
+RequestHeaderFile=t43_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t43_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

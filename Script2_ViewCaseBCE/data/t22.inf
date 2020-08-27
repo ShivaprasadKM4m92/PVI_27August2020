@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_OpenSans-Regular-cffb686d7d2f4682df8342bd4d276e09.html
+URL1=http://10.100.22.34:8083/assets/OpenSans-Regular-cffb686d7d2f4682df8342bd4d276e09.woff2?v=1.1.0
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

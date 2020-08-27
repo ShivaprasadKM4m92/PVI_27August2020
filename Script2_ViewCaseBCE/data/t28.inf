@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28_jquery-2.2.4-e72e6e97da5fd952079c33c415741fc6.html
+URL1=http://10.100.22.243:8081/assets/vendorUi/jquery/jquery-2.2.4-e72e6e97da5fd952079c33c415741fc6.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
