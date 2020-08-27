@@ -1,0 +1,11 @@
+[t305]
+FileName1=t305_referenceData.json
+URL1=http://10.100.22.243:8081/task/referenceData?_=1598449646091
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_305.xml
+RequestHeaderFile=t305_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t305_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

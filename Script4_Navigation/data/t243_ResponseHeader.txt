@@ -1,0 +1,9 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+X-Application-Context: application:production:8081
+Content-Type: application/json;charset=ISO-8859-1
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Wed, 26 Aug 2020 13:44:27 GMT
+

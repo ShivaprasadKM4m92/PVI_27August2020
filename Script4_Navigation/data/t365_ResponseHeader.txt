@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:59:34 GMT
+ETag: "common/hbs-templates/taskActionButtons-a1f3f1c1ec3508c42bb1dfdfa5a9c154.hbs"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Length: 324
+Date: Wed, 26 Aug 2020 13:49:26 GMT
+

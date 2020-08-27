@@ -1,0 +1,11 @@
+[t363]
+FileName1=t363_checkboxGroupWithButton.html
+URL1=http://10.100.22.243:8081/assets/hbs/input-elements/checkboxGroupWithButton.hbs?_=1598449760403
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_363.xml
+RequestHeaderFile=t363_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t363_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t304]
+FileName1=t304_fetchAllUser.json
+URL1=http://10.100.22.243:8081/user/fetchAllUser?_=1598449646090
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_304.xml
+RequestHeaderFile=t304_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t304_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

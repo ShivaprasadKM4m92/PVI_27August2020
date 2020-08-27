@@ -1,0 +1,11 @@
+[t365]
+FileName1=t365_taskActionButtons.html
+URL1=http://10.100.22.243:8081/assets/common/hbs-templates/taskActionButtons.hbs
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_365.xml
+RequestHeaderFile=t365_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t365_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

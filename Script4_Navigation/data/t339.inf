@@ -1,0 +1,11 @@
+[t339]
+FileName1=t339_task-management-manifest-54944cbb50ae76ddf2508b98671b380d.html
+URL1=http://10.100.22.243:8081/assets/app/task/task-management-manifest-54944cbb50ae76ddf2508b98671b380d.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_339.xml
+RequestHeaderFile=t339_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t339_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

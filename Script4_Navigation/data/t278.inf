@@ -1,0 +1,11 @@
+[t278]
+FileName1=t278.xlsx
+URL1=http://10.100.22.243:8081/export/downloadListingReport/?fileName=/home/ec2-user/apps/tomcatProcessor/temp/Intake_Queue_20200826014641.xlsx
+Total=1
+ContentType=application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+SnapshotXmlFile=snapshot_278.xml
+RequestHeaderFile=t278_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t278_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

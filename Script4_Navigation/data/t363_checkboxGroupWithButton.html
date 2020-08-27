@@ -1,0 +1,21 @@
+<div class="{{classes}}">
+    <div class="col-md-12 p-l-10 p-r-10 m-l-5">
+        <label>{{label}}</label>
+    </div>
+    <div class="pv-include-cases-list visible-lg-inline-block m-l-10">
+        {{#each values}}
+            <div class="checkbox checkbox-primary checkbox-inline p-r-5">
+                {{#if checked}}
+                    <input class="incl_excl_check" type="checkbox" checked name="taskStatus" value="{{name}}" data-id="{{id}}">
+                {{else}}
+                    <input class="incl_excl_check" type="checkbox" name="taskStatus" value="{{name}}" data-id="{{id}}">
+                {{/if}}
+                <label class="checkbox-inline">{{label}}</label>
+            </div>
+        {{/each}}
+    </div>
+    <button type="button" class="btn btn-primary waves-effect waves-light btnSearchCases m-l-10 search-button"
+            title="Click here to search cases">
+        <i class="glyphicon glyphicon-search"></i>
+    </button>
+</div>

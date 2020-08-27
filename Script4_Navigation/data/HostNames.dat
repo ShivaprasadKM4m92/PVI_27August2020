@@ -1,0 +1,8 @@
+[hosts]
+10.100.22.34=
+api.mixpanel.com=
+clientservices.googleapis.com=
+update.googleapis.com=
+10.100.22.243=
+safebrowsing.googleapis.com=
+sb-ssl.google.com=

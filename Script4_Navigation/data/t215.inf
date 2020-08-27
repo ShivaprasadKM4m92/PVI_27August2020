@@ -1,0 +1,11 @@
+[t215]
+FileName1=t215.html
+URL1=http://10.100.22.243:8081/caseEntry/fetchAllTemplates?templateId=2
+Total=1
+RequestHeaderFile=t215_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t215_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_215.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

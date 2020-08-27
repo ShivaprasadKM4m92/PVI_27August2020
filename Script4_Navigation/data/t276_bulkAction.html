@@ -1,0 +1,15 @@
+{{#checkActionAvailable actions}}
+<ul class="dropdown-menu bulk-action-list" role="menu">
+{{#each actions}}
+    {{#each this}}
+        {{#if this.isBulkAction}}
+        <li class="bulk-action {{cssClass}}">
+        {{else}}
+            <li class="bulk-action {{cssClass}} hide">
+        {{/if}}
+            <a data-container="{{../../params.containerId}}"href="#" data-action = "{{destinationStateId}}" data-case-state-id = "{{caseStateId}}">{{bulkDisplayLabel}}</a>
+        </li>
+    {{/each}}
+{{/each}}
+</ul>
+{{/checkActionAvailable}}

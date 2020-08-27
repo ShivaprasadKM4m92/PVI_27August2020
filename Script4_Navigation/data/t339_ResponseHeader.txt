@@ -1,0 +1,11 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:59:58 GMT
+ETag: "app/task/task-management-manifest-54944cbb50ae76ddf2508b98671b380d.js"
+Vary: Accept-Encoding
+Cache-Control: public, max-age=31536000
+Content-Encoding: gzip
+Content-Type: application/javascript;charset=utf-8
+Content-Length: 45568
+Date: Wed, 26 Aug 2020 13:49:18 GMT
+

@@ -1,0 +1,11 @@
+[t246]
+FileName1=t246_en-US.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/en-US.json?_=1598449507607
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_246.xml
+RequestHeaderFile=t246_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t246_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

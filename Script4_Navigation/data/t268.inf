@@ -1,0 +1,11 @@
+[t268]
+FileName1=t268_getActionViewList.json
+URL1=http://10.100.22.243:8081/case/getActionViewList?pageId=2&sourceDbId=1&_=1598449507626
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_268.xml
+RequestHeaderFile=t268_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t268_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

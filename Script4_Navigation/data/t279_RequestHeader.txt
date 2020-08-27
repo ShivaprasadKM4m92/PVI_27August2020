@@ -1,0 +1,12 @@
+POST /safebrowsing/clientreport/download?key=AIzaSyBOti4mM-6x9WDnZIjIeyEU21OpBXqWBgw HTTP/1.1
+Host: sb-ssl.google.com
+Connection: keep-alive
+Content-Length: 1957
+Content-Type: application/octet-stream
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: empty
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Cookie: NID=204=cggpcD6-Ky_d23fsBtFCsN4xTGL9dzvFgMamp-65AQmJUyUxq2Xmgay1kRn3EQqpOgGE4cHz9LW_JY8o55jm4gXvBo6HNkBcAmB1o0XXnptS9mR6lanIlkK3gGg9V1REXWgpBPPimB0-11PTwMQIpRxKxe-0S_ASKan8kbCgcVk
+

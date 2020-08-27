@@ -1,0 +1,11 @@
+[t247]
+FileName1=t247_predefinedSearch.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/predefinedSearch.json?_=1598449507608
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_247.xml
+RequestHeaderFile=t247_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t247_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

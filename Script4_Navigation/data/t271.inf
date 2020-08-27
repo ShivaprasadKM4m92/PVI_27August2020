@@ -1,0 +1,11 @@
+[t271]
+FileName1=t271.html
+URL1=http://10.100.22.243:8081/case/changeCaseState
+Total=1
+RequestHeaderFile=t271_RequestHeader.txt
+RequestBodyFile=t271_RequestBody.txt
+ResponseHeaderFile=t271_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_271.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

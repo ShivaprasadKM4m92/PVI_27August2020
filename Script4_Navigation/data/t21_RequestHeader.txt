@@ -1,0 +1,11 @@
+GET /assets/i18n/en.json HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://10.100.22.34:8083/?token=23f01d2c-116e-4e88-a1f0-180542252078
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=3684C28FFFF8D0D77BE03ADB6B09400C; AuthType=Database; SESSION=c2c93194-d7e2-4907-a9db-a5399e8b88b8
+

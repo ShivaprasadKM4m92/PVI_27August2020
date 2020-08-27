@@ -1,0 +1,11 @@
+[t281]
+FileName1=t281.json
+URL1=http://10.100.22.243:8081/case/rest/list/2
+Total=1
+RequestHeaderFile=t281_RequestHeader.txt
+RequestBodyFile=t281_RequestBody.txt
+ResponseHeaderFile=t281_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_281.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

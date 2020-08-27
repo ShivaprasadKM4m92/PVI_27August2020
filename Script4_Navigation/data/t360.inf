@@ -1,0 +1,11 @@
+[t360]
+FileName1=t360_textarea.html
+URL1=http://10.100.22.243:8081/assets/hbs/input-elements/textarea.hbs?_=1598449760400
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_360.xml
+RequestHeaderFile=t360_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t360_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

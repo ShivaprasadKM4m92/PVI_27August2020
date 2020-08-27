@@ -1,0 +1,11 @@
+[t325]
+FileName1=t325.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printOverlayTemplate.html?_=1598449706511
+Total=1
+RequestHeaderFile=t325_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t325_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_325.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

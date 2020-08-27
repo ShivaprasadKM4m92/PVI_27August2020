@@ -1,0 +1,11 @@
+[t344]
+FileName1=t344.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/copyOverlayTemplate.html?_=1598449760385
+Total=1
+RequestHeaderFile=t344_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t344_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_344.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

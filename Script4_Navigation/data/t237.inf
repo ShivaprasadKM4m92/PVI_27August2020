@@ -1,0 +1,11 @@
+[t237]
+FileName1=t237.json
+URL1=http://10.100.22.243:8081/case/rest/list/2
+Total=1
+RequestHeaderFile=t237_RequestHeader.txt
+RequestBodyFile=t237_RequestBody.txt
+ResponseHeaderFile=t237_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_237.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

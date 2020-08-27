@@ -1,0 +1,11 @@
+GET /getIngredients?mapOfIds=%7B%220%22%3A3539%2C%221%22%3A10260101%2C%222%22%3A3539%2C%223%22%3A10349701%2C%224%22%3A2330%7D&isSpecialField=false&_=1598449306412 HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Accept: application/json, text/javascript, */*; q=0.01
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://10.100.22.243:8081/caseEntry/show/244474
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=efa8c48d-3199-4dd8-9852-e5db95ea6873; AuthType=Database
+

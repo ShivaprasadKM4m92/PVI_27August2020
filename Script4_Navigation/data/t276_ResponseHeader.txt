@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 02:59:34 GMT
+ETag: "common/hbs-templates/bulkAction-21759f2d765b3f0ef6a9d2852106ddfe.hbs"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Length: 277
+Date: Wed, 26 Aug 2020 13:46:37 GMT
+

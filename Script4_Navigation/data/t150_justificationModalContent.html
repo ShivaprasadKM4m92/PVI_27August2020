@@ -1,0 +1,52 @@
+{{!--
+File:        justificationModalContent.hbs
+Description: This file is used to show configurable justification dialogue box for any action justification
+Author:      Parveen Soni RxLogix
+Date:        10-August-2017
+Usage:       To show justification dialogue modal content for any action event. This file contains modal innerHtml Code and used by _justificationDialogueModal.gsp
+Copyright:   RxLogix Corporation
+Version:     initial release 0.1
+require:     HandlebarsJS
+
+Change Management:
+Name                                         version     Author                                   Description
+justificationModalContent.hbs             0.1         Parveen Soni                             Initial Version
+--}}
+
+
+<div class="modal-dialog modal-md">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h4 class="modal-title">{{title}}</h4>
+        </div>
+        <div class="modal-body">
+            <div class="row">
+                <div class="col-sm-12">
+                    <label class="control-label">{{commentLabel}}</label>
+                    <textarea rows="3" id="justificationComment" maxlength="500" class="form-control fm-text-area"></textarea>
+                    <span class="maxlength-feedback"></span>
+                </div>
+                {{#if caseJustAuthEnabled}}
+                    <div class="col-sm-12">
+                        <label class="control-label">{{userName}}</label>
+                        <input readonly id="justificationUsername" type="text" class="form-control" name="username" style="margin-bottom: 6px"/>
+                    </div>
+
+                    <div class="col-sm-12">
+                        <label class="control-label">{{password}}</label>
+                        <input id="justificationPassword" type="password" class="form-control" name="password" style="margin-bottom: 6px"/>
+                    </div>
+                {{/if}}
+                <div class="col-sm-12">
+                    <label class="control-label">{{timestampLabel}}</label>
+                    <input disabled class="form-control timestamp" name="timestamp" id="justificationTimestamp" value="2Days 24Hrs 30Min"/>
+                </div>
+            </div>
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default waves-effect" data-dismiss="modal">{{cancelBtn}}</button>
+            <button type="button" id="justModalBtnSubmit" class="btn btn-inverse waves-effect waves-light" disabled="disabled">{{submitBtn}}</button>
+        </div>
+    </div>
+</div>

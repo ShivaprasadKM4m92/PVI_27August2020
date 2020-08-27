@@ -1,0 +1,1439 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+    <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+
+    <title>PV Intake - Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" href="/assets/vendor/favicon_1.ico">
+
+    
+    
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1, user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="layout" content="main"/>
+    <link rel="stylesheet" href="/assets/list/list-24eb5f840484c7ed5a76f95c9fe17ba2.css"/>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <link rel="stylesheet" href="/assets/application-13a1ddae267b7b6a32d12cfb1ac98e43.css"/>
+    
+    <script type="text/javascript" src="/assets/vendorUi/jquery/jquery-2.2.4-e72e6e97da5fd952079c33c415741fc6.js" ></script>
+
+        <meta name="_csrf" content="7c321e30-0444-4693-890d-c5e62f8f36e8"/>
+        <meta name="_csrf_header" content="X-CSRF-TOKEN"/>
+        <meta name="_csrf_parameter" content="_csrf"/>
+
+
+</head>
+<body class="widescreen fixed-left-void">
+
+<script type="text/javascript" src="/assets/UIConstants-ee3587ab40d47b8bed173814ecf5a0be.js" ></script>
+<script type="text/javascript" src="/assets/common/change-theme-6ebd5f05979bc64dfe2d6f10b3e3b3db.js" ></script>
+<input type="hidden" name="appConfigUrl" value="http://10.100.22.243:8081/config/appConfig" id="appConfigUrl" />
+<input type="hidden" name="attachmentViewerUrl" value="http://10.100.22.243:8081/caseEntry/fetchDocument" id="attachmentViewerUrl" />
+
+<div id="wrapper" class="forced enlarged">
+    <input type="hidden" name="currentTimestamp" value="" id="currentTimestamp" />
+    <!-- Top Bar-->
+    <div class="topbar">
+    <div class="navbar navbar-default" role="navigation">
+        <div class="pull-left">
+            <button class="button-menu-mobile open-left waves-effect">
+                <i class="md md-menu"></i>
+            </button>
+            <span class="clearfix"></span>
+        </div>
+
+        <div class="container">
+            <ul class="nav navbar-nav hidden-xs">
+                
+                
+                
+                <li><a href="#" class="waves-effect"><div class="text-left"><a href="/" class="Logo"><img src="/assets/PVIntake-241ae46808f3515f2be1c0c88ee0773b.png" class="pvLogo" alt="PV-Logo"/></a></div></a></li>
+                
+                        <li> 
+                            <a href="http://10.100.22.34:8083/" class="waves-effect">PVAdmin</a>
+                        </li>
+                    
+            </ul>
+            <ul class="nav navbar-nav navbar-right pull-right">
+                <li class="m-t-20">
+                
+                    
+                        <h5 class="text-white">Load16 (Load16)</h5>
+                    
+                </li>
+                <li class="dropdown hidden-xs hidden">
+                    <a href="#" data-target="#" class="dropdown-toggle waves-effect waves-light"
+                       data-toggle="dropdown" aria-expanded="true">
+                        <i class="md md-notifications"></i> <span
+                            class="badge badge-xs badge-pink">3</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-lg">
+                        <li class="text-center notifi-title">Notification</li>
+                        <li class="list-group nicescroll notification-list">
+
+                        </li>
+
+                        <li>
+                            <a href="javascript:void(0);" class=" text-right">
+                                <small><b>See all notifications</b></small>
+                            </a>
+                        </li>
+
+                    </ul>
+                </li>
+                <li class="dropdown hidden-xs">
+                    <a href="#" class="waves-effect waves-light" data-target="#"
+                       class="dropdown-toggle waves-effect waves-light"
+                       data-toggle="dropdown" aria-expanded="true">
+                        <i class="md md-settings"></i></a>
+                    <ul class="dropdown-menu">
+
+                        
+                        
+                            
+                                <li id="controlPanel" class="hidden"><a
+                                        href= http://10.100.22.34:8083>
+                                    Administration</a></li>
+                                <li class="divider"></li>
+                            
+                        
+                        <li id="menuPreference">
+                            <a href= /preference><i class="md md-settings"></i>
+                                Preferences
+                            </a>
+                        </li>
+                        
+                            <li class="divider"></li>
+                            <li><a rel="noopener" href="/help" target="_blank">
+                                <i class="md md-help"></i>
+                                Help</a>
+                            </li>
+                        
+                        <li class="divider"></li>
+
+                        <li>
+                            <a href="/password/resetOwnPassword" id="MI-reset-password">
+                                <i class="md md-lock-reset"></i>
+                                Change Password
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href='/logout' class=''>
+                                <i class="md md-exit-to-app"></i>
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script>
+    if ((true)) {
+        LOAD_THEME_URL = "/preference/loadTheme";
+    }
+    if ((true)) {
+        UPDATE_THEME_URL = "/preference/updateTheme"
+    }
+</script>
+
+
+    <!-- Left Sidebar -->
+    <div class="left side-menu">
+    <div class="sidebar-inner slimscrollleft">
+        <div id="sidebar-menu">
+            <ul>
+                
+                    
+                        
+                            <li class="has_sub">
+                                <a href="/" class="waves-effect waves-primary side-icon ">
+                                    <i class="md md-dashboard" aria-hidden="true"></i>
+                                    <span>Dashboard</span>
+                                    
+                                </a>
+                                
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            
+                            <li class="has_sub">
+                                <li class="has_sub">
+    <a href='#' class='waves-effect waves-primary side-icon'>
+        <i class='fa fa-pencil-square' aria-hidden='true'></i>
+        <span>New Case</span></a>
+    <span class='menu-arrow'></span>
+    <ul class="list-unstyled">
+        
+            <li>
+                <a href="/caseEntry/index?templateId=1" class="waves-effect waves-primary side-icon">
+                    <span>Basic Case Entry</span>
+                </a>
+            </li>
+        
+            <li>
+                <a href="/caseEntry/index?templateId=2" class="waves-effect waves-primary side-icon">
+                    <span>Full Case Entry</span>
+                </a>
+            </li>
+        
+    </ul>
+</li>
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li class="has_sub">
+                                <a href="#" class="waves-effect waves-primary side-icon ">
+                                    <i class="md md-my-library-add create-follow-up" aria-hidden="true"></i>
+                                    <span>New Follow Up</span>
+                                    
+                                </a>
+                                
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li class="has_sub">
+                                <a href="/duplicate/search" class="waves-effect waves-primary side-icon ">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                    <span>Search Case</span>
+                                    
+                                </a>
+                                
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li class="has_sub">
+                                <a href="/case/list" class="waves-effect waves-primary side-icon ">
+                                    <i class="fa fa-list" aria-hidden="true"></i>
+                                    <span>Case List</span>
+                                    
+                                </a>
+                                
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li class="has_sub">
+                                <a href="/intake/queue" class="waves-effect waves-primary side-icon ">
+                                    <i class="md md-my-library-books" aria-hidden="true"></i>
+                                    <span>Intake Queue</span>
+                                    
+                                </a>
+                                
+                            </li>
+                        
+                    
+                
+                    
+                        
+                            <li class="has_sub">
+                                <a href="/task/management" class="waves-effect waves-primary side-icon ">
+                                    <i class="md md-clipboard-text" aria-hidden="true"></i>
+                                    <span>Tasks</span>
+                                    
+                                </a>
+                                
+                            </li>
+                        
+                    
+                
+                
+            </ul>
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+</div>
+
+    <div id="pviModalFollowUp" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close followUpCancelBtn" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Enter Case #</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="alert alert-danger fade in hide p-0 p-l-10 p-r-10" id="messageBox">
+                            <div id="errorMessage"></div>
+                        </div>
+                        
+                            <label class="control-label">Create Follow-Up for Initial Case #</label>
+                        
+                        <input type="text"  id="parentCaseId" class="caseNumber" name="submissionCaseNumber" class="form-control" maxlength="50"/>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn pv-btn-grey waves-effect followUpCancelBtn" data-dismiss="modal">Cancel</button>
+                <button type="button" id="followUpOkBtn" class="btn btn-primary waves-effect waves-light">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="modal fade" id="reportModal" role="dialog">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <span class="fileType h4"></span>
+                <span class="modal-title XMLfileName h4"></span>
+            </div>
+            <div class="modal-body">
+                <div class="e2bXMLDetail hide"><pre class="xmlContent" lang="xml"></pre></div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+    <div id="pviSplitModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close btn-split-cancel" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Split</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row split-step1">
+                    <label class="control-label">How many cases do you want to split this case into?</label>
+                    <div class="col-sm-8">
+                        <input type="text" name="splitCaseCount" class="splitInput col-sm-2" maxlength="4" value="" id="splitCaseCount" />
+                    </div>
+
+                </div>
+                <div class="row split-step2 hide">
+                    <div class="col-sm-12">
+                        <table class="table table-striped split-table pv-inner-table m-b-0">
+                            <thead>
+                            <tr>
+                                <th class="pv-col-sn">#</th>
+                                <th class="col-md-9">File Name</th>
+                                <th class="col-md-3">Case Number</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td class="num">1</td>
+                                <td>
+                                    <select class="form-control select2 select2-box multiSelectSelect2Field existing-case-select select-split" id="case-attachments[0]" name="case-attachments[0]" multiple="multiple" data-value="" >
+</select>
+                                </td>
+                                <td class="existing-case-number">
+                                    <a href=""><label class="control-label existing-case-num"></label></a>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            <div class="row split-no-attachment hide" style='text-align: center;'></div>
+            <div class="modal-footer">
+                <span class="split-bot-btn1">
+                    <button type="button" class="btn btn-default waves-effect split-cancel" data-dismiss="modal">Cancel</button>
+                    <button type="button" id="submissionSplitModalOkBtn1" class="btn btn-inverse waves-effect waves-light" >Ok</button>
+                </span>
+                <span class="split-bot-btn2 hide">
+                    <button type="button" class="btn btn-default waves-effect btn-split-cancel" data-dismiss="modal">Cancel</button>
+                    <button type="button" id="submissionSplitModalCreateBtn" class="btn btn-inverse waves-effect waves-light" >Create</button>
+                </span>
+                <span class="split-bot-bt3 hide">
+                    <button type="button" id="submissionSplitModalOkBtn2" class="btn btn-inverse waves-effect waves-light" >Ok</button>
+                </span>
+                <span class="split-bot-btn4 hide text-center">
+                    <button type="button" class="btn btn-inverse waves-effect" id="submissionSplitUIDialogModalCancelBttn2" data-dismiss="modal">Ok</button>
+                </span>
+                <span class="split-bot-btn5 hide text-center">
+                    <button type="button" class="btn btn-inverse waves-effect" id="splitSubmissionDone" data-dismiss="modal">Ok</button>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <table class="split-row hide">
+      <tr>
+        <td class="num split-count"></td>
+        <td>
+            <select class="form-control select2 select2-box multiSelectSelect2Field select-split" name="case-attachments[0]" id="case-attachments[0]" multiple="multiple" >
+</select>
+        </td>
+        <td class="intakeCaseNum">
+            <a><label class="control-label notDefinedYet">Not Defined Yet</label></a>
+        </td>
+      </tr>
+    </table>
+</div>
+    <div id="copyCaseModal" data-custom-class="" data-has-confirm-button="false"
+     data-allow-outside-click="false" data-has-done-function="false" data-animation="none" data-timer="null"
+     style="display: none; margin-top: -170px;">
+    <div class="sa-icon sa-error" style="display: none;">
+        <span class="sa-x-mark">
+            <span class="sa-line sa-left"></span>
+            <span class="sa-line sa-right"></span>
+        </span>
+    </div>
+
+    <div class="sa-icon sa-warning pulseWarning" style="display: block;">
+        <span class="sa-body pulseWarningIns"></span>
+        <span class="sa-dot pulseWarningIns"></span>
+    </div>
+
+    <div class="sa-icon sa-info" style="display: none;"></div>
+
+    <div class="sa-icon sa-success" style="display: none;">
+        <span class="sa-line sa-tip"></span>
+        <span class="sa-line sa-long"></span>
+
+        <div class="sa-placeholder"></div>
+
+        <div class="sa-fix"></div>
+    </div>
+
+    <div class="sa-icon sa-custom" style="display: none;"></div>
+
+    <h2 class="alert-type">Warning</h2>
+
+    <p style="display: block;" class="display-message"></p>
+    <fieldset>
+        <input type="text" tabindex="3" placeholder="">
+
+        <div class="sa-input-error"></div>
+    </fieldset>
+
+    <div class="sa-error-container">
+        <div class="icon">!</div>
+
+        <p>Not valid!</p>
+    </div>
+
+    <div class="sa-button-container">
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-confirm w-xs first-btn" tabindex="1"
+                    style="display: inline-block;">Yes</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div>
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-reject w-xs second-btn" tabindex="1"
+                    style="display: inline-block;">No</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div></div></div>
+
+    <div id="splitConfirmModal" data-custom-class="" data-has-confirm-button="false"
+     data-allow-outside-click="false" data-has-done-function="false" data-animation="none" data-timer="null"
+     style="display: none; margin-top: -170px;">
+    <div class="sa-icon sa-error" style="display: none;">
+        <span class="sa-x-mark">
+            <span class="sa-line sa-left"></span>
+            <span class="sa-line sa-right"></span>
+        </span>
+    </div>
+
+    <div class="sa-icon sa-warning pulseWarning" style="display: block;">
+        <span class="sa-body pulseWarningIns"></span>
+        <span class="sa-dot pulseWarningIns"></span>
+    </div>
+
+    <div class="sa-icon sa-info" style="display: none;"></div>
+
+    <div class="sa-icon sa-success" style="display: none;">
+        <span class="sa-line sa-tip"></span>
+        <span class="sa-line sa-long"></span>
+
+        <div class="sa-placeholder"></div>
+
+        <div class="sa-fix"></div>
+    </div>
+
+    <div class="sa-icon sa-custom" style="display: none;"></div>
+
+    <h2 class="alert-type">Warning</h2>
+
+    <p style="display: block;" class="display-message"></p>
+    <fieldset>
+        <input type="text" tabindex="3" placeholder="">
+
+        <div class="sa-input-error"></div>
+    </fieldset>
+
+    <div class="sa-error-container">
+        <div class="icon">!</div>
+
+        <p>Not valid!</p>
+    </div>
+
+    <div class="sa-button-container">
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-confirm w-xs first-btn" tabindex="1"
+                    style="display: inline-block;">Yes</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div>
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-reject w-xs second-btn" tabindex="1"
+                    style="display: inline-block;">No</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div></div></div>
+
+    <!-- Modal -->
+<div class="modal fade" id="attachmentModal" role="dialog">
+    <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title" id="attachmentModalHeader"></h4>
+            </div>
+            <div class="modal-body spinner" id="modalBodyData">
+                <div id="viewer" style="width:100%;"></div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    
+<div id="taskModal" class="modal fade" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Create Task</h4>
+            </div>
+            <div class="modal-body">
+                
+                
+                <form id="taskForm">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="alert alert-danger fade in hide p-0 p-l-10 p-r-10" id="messageBox">
+                                <div id="errorMessage"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 required">
+                                    <label for="taskTypeId" class="control-label lbl-elipsis">Task Type
+                                    </label>
+                                        <select id="taskTypeId" data-placeholder="Select" name="taskTypeId" class="form-control select2-box" >
+<option value="100012" >Case Nullification</option>
+<option value="100018" >Task11</option>
+<option value="100019" >task12</option>
+<option value="100014" >Query Action</option>
+<option value="100015" >Test QA 2</option>
+<option value="100016" >Hospitalization Dates</option>
+<option value="100017" >Hospital Discharge Summary</option>
+<option value="1" >Case</option>
+<option value="2" >Letter</option>
+<option value="3" >Expedited Report</option>
+<option value="4" >Periodic Report</option>
+<option value="5" >Local Event</option>
+<option value="100000" >Unbliding Approval</option>
+<option value="100008" >Other</option>
+<option value="100002" >Test_PMDA Fax report</option>
+</select>
+                                    
+                                </div>
+                                <div class="col-sm-4">
+                                    <label for="priorityId">Priority</label>
+                                    
+                                    <select id="priorityId" name="priorityId" class="form-control select2-box" data-placeholder="Select" >
+<option value="1" >High</option>
+<option value="2" >Medium</option>
+<option value="3" >Low</option>
+</select>
+                                    
+                                </div>
+
+                                <div class="col-sm-4 required">
+                                    <label for="assignedToId" class="control-label lbl-elipsis">Assigned To</label>
+                                    <select id="assignedToId" name="assignedToId" class="form-control" data-placeholder="Select"></select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-4 m-t-5">
+                                    <label for="dueDate">Due Date</label>
+                                    <div class="datepicker internal input-group date">
+                                        <input type="text" class="form-control futureDatesAllowed" data-precision="DD-MMM-YYYY" name="dueDate" id="dueDate" placeholder="Due Date" value="" />
+                                        <span type="button" class="input-group-addon bg-primary text-white b-0 datepicker-icon">
+                                            <i class="md md-calendar-blank"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 m-t-5">
+                                    <label for="completionDate">Completion Date</label>
+                                    <div class="datepicker internal input-group date">
+                                        <input type="text" class="form-control" data-precision="DD-MMM-YYYY" name="completionDate" id="taskCompletionDate" placeholder="Completion Date" value="" />
+                                        <span type="button" class="input-group-addon bg-primary text-white b-0 datepicker-icon">
+                                            <i class="md md-calendar-blank"></i>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 m-t-5">
+                                    <label for="status">Status</label>
+                                    <select id="taskStatus" name="statusId" class="select2-box form-control" >
+<option value="1" >New</option>
+<option value="2" >In Progress</option>
+<option value="3" >Need Clarification</option>
+<option value="4" >Closed</option>
+</select>
+                                </div>
+                                <div class="col-sm-12 required m-t-5">
+                                    <label for="description" class="control-label lbl-elipsis">Description</label>
+                                    <textarea id="description" name="description" rows="8" cols="20" maxlength="4000" class="form-control m-b-5" ></textarea>
+                                    <span class="maxlength-feedback"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 m-t-5 hide">
+                            <label class="control-label lbl-elipsis">Intake Case Number</label>
+                            <input type="hidden" id="case-id" name="primaryRefId" value="" />
+                            <span></span>
+
+                        </div>
+                        <div class="col-sm-4 m-t-5">
+                            <label class="control-label lbl-elipsis">Intake Case Number</label>
+                            <input type="hidden" id="case-number" name="tertiaryRefId" value="" />
+                            <span></span>
+
+                        </div>
+                        <div class="col-sm-4 m-t-5">
+                            <label  class="control-label lbl-elipsis">Version</label>
+                            <input type="hidden" id="case-version" name="secondaryRefId" value="" />
+                            <span></span>
+                        </div>
+                        <div class="col-sm-2 m-t-5">
+                            <label class="control-label lbl-elipsis">Email Alert</label>
+                            <div class='internal checkbox checkbox-primary'>
+                                <input type="checkbox" id="task-email-alert" name="" value="true"/>
+                                <label class="" for="task-email-alert"></label>
+                            </div>
+                        </div>
+                        <div class="col-sm-2 hide">
+                            <label class="control-label lbl-elipsis">SMS Alert</label>
+                            <div class='internal checkbox checkbox-primary'>
+                                <input type="checkbox" id="task-sms-alert"  value="true"/>
+                                <label class="" for=""></label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4 m-t-5">
+                            <label class="control-label lbl-elipsis" id="created_updated_ele">Created By</label>
+                                <div class="taskManagerCreatedByUsername">Load16</div>
+                        </div>
+                        <div class="col-sm-4 m-t-5">
+                            <label class="control-label lbl-elipsis">Date Created</label>
+                            <span class="task-date"></span>
+                        </div>
+                    </div>
+                    <input type="hidden" id="taskId" name="taskId" value="" />
+                    <input type="hidden" id="countryId" name="countryId" value="" />
+                    <input type="hidden" id="fourthRefId" name="fourthRefId" value="" />
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="task-cancel-btn" class="btn pv-btn-grey waves-effect">Cancel</button>
+                <button type="button" id="task-save-btn" class="btn btn-primary waves-effect waves-light">Create</button>
+                <button type="button" id="task-update-btn" class="btn btn-primary waves-effect waves-light hide">Update</button>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div id="pviModalFollowUpQuery" class="modal fade" data-backdrop="static" data-keyboard="false" style="position: relative;">
+    <div class="follow-up-modal-dialog modal-dialog modal-lg" style="position: fixed;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close FUQCancelBtn" id="followUpQueryCloseBtn" aria-hidden="true">×</button>
+                <h4 class="modal-title heading addHeading">Follow-Up Query</h4>
+                <h4 class="modal-title heading hide editHeading">Edit Follow-up Query</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <form id="followUpQueryForm" enctype="multipart/form-data" method="post">
+                            <div class="row">
+                                <div class="method col-md-10 required">
+                                    <label for="method" class="control-label m-t-5 lbl-elipsis">Method </label>
+                                    <select id="method" name="methodId" class="form-control select2" >
+<option value="1" >Email</option>
+<option value="2" >Fax</option>
+<option value="3" >Letter</option>
+<option value="4" >Phone Call</option>
+</select>
+                                </div>
+                                <div class="col-md-2 m-t-30">
+                                    <div class="internal checkbox checkbox-primary toggleCC carbonCopy m-r-10 checkbox-inline">
+                                        <input id="ccToggle" class="ccToggle" type="checkbox" name="ccToggle" value="true"/>
+                                        <label for="ccToggle" class="control-label">CC </label>
+                                    </div>
+                                    <div class="internal checkbox checkbox-primary toggleBCC blindCarbonCopy checkbox-inline">
+                                        <input id="bccToggle" class="bccToggle" type="checkbox" name="bccToggle" value="true"/>
+                                        <label for="bccToggle" class="control-label">BCC </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-10 followUpReporters to mailReceiver">
+                                <div class="col-md-12 required">
+                                    <label for="followUpReporters" class="control-label lbl-elipsis">To </label>
+                                    <select id="followUpReporters" class="lbl-required form-control  select2 select2-box wrapped-multiselect select-split customValueMultiSelect2"
+                                            name="sentTo"
+                                            multiple="multiple">
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row sentToPostalMail m-t-10 required hide">
+                                <div class="col-md-12">
+                                    <label for="sentToPostalMail" class="control-label lbl-elipsis">To </label>
+                                    <textarea id="sentToPostalMail" name="sentToPostalMail" rows="1" cols="20" maxlength="1000" class="form-control fm-text-area p-t-0" ></textarea>
+                                    <span class="maxlength-feedback"></span>
+                                </div>
+                            </div>
+                            <div id="ccDiv" class="cc carbonCopy m-t-10 row">
+                                <div class="col-md-12">
+                                    <label for="cc" class="control-label lbl-elipsis">CC</label>
+                                    <select id="cc" class="form-control  select2 select2-box wrapped-multiselect select-split customValueMultiSelect2" name="cc" multiple="multiple">
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div id="bccDiv" class="bcc blindCarbonCopy m-t-10 row">
+                                <div class="col-md-12">
+                                    <label for="bcc" class="control-label lbl-elipsis">BCC</label>
+                                    <select id="bcc" class="form-control select2 select2-box wrapped-multiselect select-split customValueMultiSelect2" name="bcc" multiple="multiple"></select>
+                                </div>
+                            </div>
+
+                            <div class="emailTemplate m-t-10 row">
+                                <div class="col-md-12">
+                                    <label for="emailTemplate" class="control-label lbl-elipsis">Template </label>
+                                    <select id="emailTemplate" name="emailTemplate" class="form-control select2-box" >
+</select>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-10 mailSubject">
+                                <div class="subject col-md-12 required">
+                                    <label for="subject" class="control-label lbl-elipsis">Subject </label>
+                                    <textarea id="subject" name="subject" rows="1" cols="20" maxlength="1000" class="form-control fm-text-area p-t-0" ></textarea>
+                                    <span class="maxlength-feedback"></span>
+                                </div>
+                            </div>
+
+                            <div class="row m-t-10 mailBody">
+                                <div class="modalFUQMsg col-md-12 required">
+                                    <label for="modalFUQMsg" class="control-label lbl-elipsis">Message <span class="fa fa-question-circle " style="color:#0000FF;cursor: pointer;" aria-hidden="true"></span></label>
+                                    <textarea id="modalFUQMsg" name="body" rows="15" cols="20" maxlength="10000" class="form-control fm-text-area hide" ></textarea>
+                                    <span class="maxlength-feedback"></span>
+                                </div>
+                            </div>
+
+                            <div class="nonEmail hide">
+                                <div class="row sentToNonEmail m-t-10 required">
+                                    <div class="col-md-12">
+                                        <label for="sentToNonEmail" class="control-label lbl-elipsis">Contacted </label>
+                                        <textarea id="sentToNonEmail" name="sentToNonEmail" rows="1" cols="20" maxlength="1000" class="form-control fm-text-area p-t-0" ></textarea>
+                                        <span class="maxlength-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="row description m-t-10 required">
+                                    <div class="col-md-12">
+                                        <label for="description" class="control-label lbl-elipsis">Description </label>
+                                        <textarea id="FU_description" name="description" rows="1" cols="20" maxlength="1000" class="form-control fm-text-area p-t-0" ></textarea>
+                                        <span class="maxlength-feedback"></span>
+                                    </div>
+                                </div>
+                                <div class="row m-t-10">
+                                    <div class="dateSent col-md-4">
+                                        <label for="dateSent" class="control-label lbl-elipsis">Date Contacted</label>
+                                        <div class="">
+                                            <div class="dateSent datepicker internal input-group date">
+                                                <input type="text" class="form-control" data-precision="DD-MMM-YYYY" name="dateSent" id="dateSent" placeholder="Date Contacted" value="" />
+                                                <span type="button" class="input-group-addon bg-primary text-white b-0 datepicker-icon">
+                                                    <i class="md md-calendar-blank"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="sentByNonEmail col-md-4">
+                                        <label for="sentByNonEmail" class="control-label lbl-elipsis">Contacted By </label>
+                                        <input type="text" id="sentByNonEmail" name="sentByNonEmail" value="" maxlength="1000" class="form-control" />
+                                    </div>
+                                    <div class="dateClosed col-md-4">
+                                        <label for="dateClosed" class="control-label lbl-elipsis">Date Closed</label>
+                                        <div class="">
+                                            <div class="dateClosed datepicker internal input-group date">
+                                                <input type="text" class="form-control" data-precision="DD-MMM-YYYY" name="dateClosed" id="dateClosed" placeholder="Date Closed" value="" />
+                                                <span type="button" class="input-group-addon bg-primary text-white b-0 datepicker-icon">
+                                                    <i class="md md-calendar-blank"></i>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row comments m-t-10">
+                                    <div class="col-md-12">
+                                        <label for="comments" class="control-label lbl-elipsis">Comments </label>
+                                        <textarea id="comments" name="comments" rows="8" cols="20" maxlength="4000" class="form-control fm-text-area" ></textarea>
+                                        <span class="maxlength-feedback"></span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="attachments fileName m-t-10">
+                                <table class="table table-striped pv-inner-table m-b-0">
+                                    <thead>
+                                        <tr>
+                                            <th class="col-md-1">#</th>
+                                            <th class="col-md-11  true"> <label class="control-label lbl-elipsis">Attachments </label></th>
+                                            <th><a href="javascript:void(0);" class="pull-right add-attachment" data-tabular="true">
+                                                <i class="fa fa-plus-square-o"></i></a>
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="pv-draggable-list ui-sortable" id="attachmentSection-followUp" style="">
+                                        <tr class="row-table pv-section-record ui-sortable-handle hide deleted" data-id = "">
+                                            <td class="new-index badge-index">0</td>
+                                            <td>
+                                                <div class="col-sm-12 pv-col-attachment">
+                                                    <a href="javascript:void(0)" class="attachmentRow m-r-10" data-deleted="false" data-filename="" data-storageid="" data-redact="false" ></a>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                <a href="javascript:void(0);" title="Remove this section" class="pull-right delete-attachment">
+                                                    <i class="md md-close" aria-hidden="true"></i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    <tr class="row-table pv-section-record ui-sortable-handle" style="">
+                                        <td class="new-index badge-index">1</td>
+                                        <td>
+                                            <div class="internal" data-id="attachmentFilePath">
+                                                <div class="file-uploader" data-provides="fileupload">
+                                                    <input type="file" name="followUpQuery.attachments[0].file" data-mandatory="false" data-mandatoryset="0" class="file">
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control fileName" disabled="" placeholder="Attach a file" value="" name="followUpQuery.attachments[0].fileName">
+                                                        <span class="input-group-btn ">
+                                                            <button class="browse btn btn-primary btn-file-upload" type="button"><i class="glyphicon glyphicon-search"></i>
+                                                            </button>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <a href="javascript:void(0);" title="Remove this section" class="pull-right delete-attachment">
+                                                <i class="md md-close" aria-hidden="true"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+
+                            <div class="commentsEmail hide m-t-10">
+                                <label for="commentsEmail" class="control-label lbl-elipsis">Comments</label>
+                                <textarea id="commentsEmail" name="comments" rows="10" cols="20" maxlength="500" class="form-control fm-text-area" ></textarea>
+                                <span class="maxlength-feedback"></span>
+                            </div>
+
+                            <div class="row">
+                                <div class="dateContactedPostalMail hide  m-t-10 col-md-4">
+                                    <label for="dateContactedPostalMail" class="control-label lbl-elipsis">Date Contacted</label>
+                                    <div class="">
+                                        <div class="dateContactedPostalMail datepicker internal input-group date">
+                                            <input type="text" class="form-control" data-precision="DD-MMM-YYYY" name="dateContactedPostalMail" id="dateContactedPostalMail" placeholder="Date Contacted" value="" />
+                                            <span type="button" class="input-group-addon bg-primary text-white b-0 datepicker-icon">
+                                                <i class="md md-calendar-blank"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="contactedPostalMail  hide  m-t-10 col-md-4">
+                                    <label for="contactedPostalMail" class="control-label lbl-elipsis">Contacted By </label>
+                                    <input type="text" id="contactedPostalMail" name="contactedPostalMail" value="" maxlength="1000" class="form-control" />
+                                </div>
+                                <div class="dateClosedEmail hide  m-t-10 col-md-4 dropup">
+                                    <label for="dateClosedEmail" class="control-label lbl-elipsis">Date Closed</label>
+
+                                    <div class="">
+                                        <div class="datepicker internal input-group date">
+                                            <input type="text" class="form-control " data-precision="DD-MMM-YYYY" name="dateClosed" id="dateClosedEmail" placeholder="Date Closed" value="" />
+                                            <span type="button" class="input-group-addon bg-primary text-white b-0 datepicker-icon">
+                                                <i class="md md-calendar-blank"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <input type="hidden" id="followUpQueryId" name="followUpQueryId" value="" />
+                            <input type="hidden" id="primaryRefId" name="primaryRefId" value="" />
+                            <input type="hidden" id="secondaryRefId" name="secondaryRefId" value="" />
+                            <input type="hidden" id="tertiaryRefId" name="tertiaryRefId" value="" />
+                            <input type="hidden" id="maxFileSize" name="maxFileSize" value="5" />
+
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div id="emailHelpModal" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-md">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" id="emailHelpClose" class="close" aria-hidden="true">×</button>
+                <h4 class="modal-title emailHelp">Field tags supported in e-mail body and subject</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table table-striped pv-inner-table m-b-0" id="placeholderTable">
+                    <thead>
+                    <tr>
+                        <th class="col-md-1">#</th>
+                        <th class="col-md-3"> <label class="control-label lbl-elipsis" > Placeholder </label></th>
+                        <th class="col-md-8"> <label class="control-label lbl-elipsis"> Help Text </label></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="primary"><td>1</td><td>[Intake Case #]</td><td> Intake Case Number</td>
+                    <tr class="primary"><td>2</td><td>[Version]</td><td> Version of the Case</td>
+                    <tr class="primary"><td>3</td><td>[First Receipt Date]</td><td> First Receipt Date of the Case</td>
+                    <tr class="primary"><td>4</td><td>[FU Receipt Date]</td><td> FU Receipt Date of the Case</td>
+                    <tr class="primary"><td>5</td><td>[Primary Reporter]</td><td> Name of the Primary Reporter in format &lt;First Name&gt; &lt;Middle Name&gt; &lt;Last Name&gt;</td>
+                    <tr class="primary"><td>6</td><td>[Patient Initials]</td><td> Name / Initials of the Patient</td>
+                    <tr class="primary"><td>7</td><td>[Age]</td><td> Age of the Patient</td>
+                    <tr class="primary"><td>8</td><td>[Gender]</td><td> Gender of the Patient </td>
+                    <tr class="primary"><td>9</td><td>[Primary Suspect Product]</td><td> Name of the Primary Suspect Product in format &lt;Trade Name&gt; (&lt;Generic Name&gt;) if Product is coded else shall display the Product Name</td>
+                    <tr class="primary"><td>10</td><td>[Primary Event]</td><td> Reported Reaction for first event in the case</td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="emailHelpOk" class="btn pv-btn-grey waves-effect emailHelp-ok-btn" >Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="modal-footer">
+                <button type="button" class="btn pv-btn-dark-grey waves-effect" id="FUQResetBtn">Reset</button>
+                <button type="button" class="btn pv-btn-grey waves-effect FUQCancelBtn" id="FUQCancelBtn">Cancel</button>
+                
+                <button type="button" class="btn btn-primary waves-effect waves-light" id="FUQSend">Send</button>
+                <button type="button" class="btn pv-btn-grey waves-effect followUpCloseBtn hide" id="fuqClose">Close</button>
+                <button type="button" class="btn btn-primary waves-effect waves-light followUpUpdateBtn hide" id="fuqUpdate">Update</button>
+                <a id="tempDownload" target="_blank" class="hide"></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+<div id="product-browser-container" class="pvb-container"></div>
+
+<div id="study-browser-container" class="pvb-container"></div>
+
+<div id="meddra-browser-container" class="pvb-container"></div>
+
+<div class="hide" id="eventCodedIconDivId"><i class="fa pull-right m-t-10 white-tooltip eventCodedFlag"></i></div>
+<div class="sweet-alert-modal" data-custom-class="" data-has-cancel-button="true" data-has-confirm-button="false"
+     data-allow-outside-click="false" data-has-done-function="false" data-animation="none" data-timer="null"
+     style="display: none; margin-top: -170px;">
+    <div class="sa-icon sa-error" style="display: none;">
+        <span class="sa-x-mark">
+            <span class="sa-line sa-left"></span>
+            <span class="sa-line sa-right"></span>
+        </span>
+    </div>
+
+    <div class="sa-icon sa-warning pulseWarning" style="display: block;">
+        <span class="sa-body pulseWarningIns"></span>
+        <span class="sa-dot pulseWarningIns"></span>
+    </div>
+
+    <div class="sa-icon sa-info" style="display: none;"></div>
+
+    <div class="sa-icon sa-success" style="display: none;">
+        <span class="sa-line sa-tip"></span>
+        <span class="sa-line sa-long"></span>
+
+        <div class="sa-placeholder"></div>
+
+        <div class="sa-fix"></div>
+    </div>
+
+    <div class="sa-icon sa-custom" style="display: none;"></div>
+
+    <h2 class="alert-type">Warning</h2>
+
+    <p style="display: block;" class="display-message"></p>
+    <fieldset>
+        <input type="text" tabindex="3" placeholder="">
+
+        <div class="sa-input-error"></div>
+    </fieldset>
+
+    <div class="sa-error-container">
+        <div class="icon">!</div>
+
+        <p>Not valid!</p>
+    </div>
+
+    <div class="sa-button-container">
+        <button class="cancel first-btn btn-cancel w-xs" tabindex="2"
+                style="display: inline-block; box-shadow: none;">Cancel</button>
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-confirm w-xs" tabindex="1" style="display: none;">OK</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div>
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-confirm w-xs second-btn" tabindex="1"
+                    style="display: inline-block;">Yes</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div>
+
+        <div class="sa-confirm-button-container">
+            <button class="confirm btn-reject w-xs third-btn" tabindex="1"
+                    style="display: inline-block;">No</button>
+
+            <div class="la-ball-fall">
+                <div></div>
+
+                <div></div>
+
+                <div></div>
+            </div>
+        </div></div></div>
+
+
+<input type="hidden" name="serverTimestampURL" value="http://10.100.22.243:8081/config/loadServerTime" id="serverTimestampURL" />
+<input type="hidden" id="serverTimestamp"/>
+<div id="pv-justification-modal" class="modal fade" data-backdrop="static" tabindex="-1" role="dialog" aria-labelledby="justificationModalLabel" aria-hidden="true">
+</div>
+<div class="modal fade attachmentUploadModel" id="attachmentUploadModel" tabindex="-1" role="dialog"
+     aria-hidden="true" data-fileNameAttribute="">
+    <input type="hidden" name="currentAttachmentName" value="" id="currentAttachmentName" />
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <h4 class="modal-title">Update Attachment</h4>
+            </div>
+
+            <div class="modal-body">
+                <p>Do you want to replace the original file or provide the edited copy?</p>
+                <form>
+                    <label class="radio-inline">
+                        <input type="radio" name="attachment_type_redact" value="false">
+                        Replace Original
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="attachment_type_redact" value="true">
+                        Edited Copy
+                    </label>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button id="attachmentModelSubmitButton" type="button" class="btn btn-secondary">
+                    Ok
+                </button>
+                <button id="attachmentModelDismissButton" type="button" class="btn btn-secondary" data-dismiss="modal">
+                    Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="emailContentfuqModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close emailContentModalCancelBtn" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Follow Up Query Information</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-12 required">
+                        <label for="emailMethod" class="control-label lbl-elipsis">Method </label>
+                        <select id="emailMethod" name="emailMethod" class="form-control select2" disabled="disabled" >
+<option value="1" >Email</option>
+<option value="2" >Fax</option>
+<option value="3" >Letter</option>
+<option value="4" >Phone Call</option>
+</select>
+                    </div>
+                    <div class="col-md-12 required">
+                        <label for="emailSentTo" class="control-label lbl-elipsis">To </label>
+                        <select id="emailSentTo" class="lbl-required form-control  select2 select2-box multiSelectSelect2Field wrapped-multiselect select-split customValueMultiSelect2"
+                            name="emailSentTo"
+                            multiple="multiple" disabled>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="emailCcValue" class="control-label lbl-elipsis">CC</label>
+                        <select id="emailCcValue" class="form-control  select2 select2-box wrapped-multiselect select-split customValueMultiSelect2" name="emailCcValue" multiple="multiple" disabled>
+                        </select>
+                    </div>
+                    <div class="col-md-12">
+                        <label for="emailBccValue" class="control-label lbl-elipsis">BCC</label>
+                        <select id="emailBccValue" class="form-control select2 select2-box wrapped-multiselect select-split customValueMultiSelect2" name="emailBccValue" multiple="multiple" disabled></select>
+                    </div>
+
+                    <div class="col-md-12">
+                        <label for="emailTemplateValue" class="control-label lbl-elipsis">Template </label>
+                        <select id="emailTemplateValue" name="emailTemplateValue" class="form-control select2-box" disabled="disabled" >
+</select>
+                    </div>
+
+                    <div class="col-md-12 required">
+                        <label for="emailSubjectValue" class="control-label lbl-elipsis">Subject </label>
+                        <textarea id="emailSubjectValue" name="emailSubjectValue" rows="1" cols="20" maxlength="1000" class="form-control fm-text-area p-t-0" disabled="disabled" ></textarea>
+                        <span class="maxlength-feedback"></span>
+                    </div>
+
+                    <div class="modalFUQMsg col-md-12 required">
+                        <label for="emailContentMessage" class="control-label">Email Content</label>
+                        <textarea id="emailContentMessage" name="emailContentMessage" cols="100" rows="15" class="form-control hide" disabled></textarea>
+                    </div>
+                </div>
+                <div class="row m-t-10">
+                    <label class="control-label">Attachments</label>
+                    <div class="col-sm-12 pv-col-attachment" id="emailContentAttachments"></div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                
+                <button type="button" id="pv-emailContentClose" class="btn pv-btn-grey waves-effect" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    
+<div class="pv-loader-bg">
+    <div class="loader">
+        <svg class="circular" viewBox="25 25 50 50">
+            <circle class="path" cx="50" cy="50" r="20" fill="none" stroke="#4f8ef2" stroke-width="2" stroke-miterlimit="10"/>
+        </svg>
+    </div>
+</div>
+<div class="content-page">
+    <!-- Start content -->
+    <div class="content" id="listContainer">
+        <div id="list-data-elements" data-is-or-operation="false" data-order-by-default='[[3, "desc"]]'
+             data-show-info="true" data-page-length="" data-count-search-criteria="false"
+             data-paging="true" data-length-change="true" data-sort-while-search="false" data-is-widget="false"
+             data-clear-cache-on-refresh="false" data-save-form-state="true"></div>
+        <input type="hidden" name="listPageId" value="1" id="listPageId" />
+
+        <div class="container">
+            <!-- Page-Title -->
+            <div class="row">
+    <div class="col-sm-12">
+        <div class="page-title-box">
+            <div class="fixed-page-head">
+                <div class="page-head-lt pv-caselist-top-title">
+                    <h4 id="listPageTitle"></h4>
+                </div>
+
+                <div class="pull-right page-head-rt text-right">
+                    <a href="#" class="pull-right pv-ic ic-md" id="pviCaseSearchIcon" title="Toggle Search"><i class="md md-search"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <!-- End of Page Title -->
+            <div class=" pv-caselist-top-fixed dataTableList">
+    
+    <div class="row hide pv-topsrc-container" id="pviCaseSrcSec">
+        <div class="col-md-12">
+            <div class="panel m-b-0">
+                <div class="panel-body inner-shadow-box">
+                    <div class="row m-b-0 pv-list-top-search">
+                        <form class="form-pv" name="task-search">
+                            <div class="col-md-12">
+                                <div class="form-group m-0">
+                                    <div id="searchCriteriaContainer"></div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel-heading pv-sec-heading grid-top-head">
+        <div class="row">
+            <div class="col-md-5">
+                
+                
+            </div>
+
+            <div class="col-md-6 grid-top-pagination text-right pull-right">
+                <div class="dataTables_length btn-group">
+                    <label>
+                        Display
+                        <select name="datatable-keytable_length" aria-controls="datatable-keytable"
+                                class="form-control input-sm inp-display-record">
+                            <option value="25">25</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                            <option value="250">250</option>
+                        </select>
+                        Records per page
+                    </label>
+                </div>
+
+                <div class="btn-group btn-excel  pv-list-icbx ic-sm hide">
+                    <a id="export-excel-button" href="javascript:void(0)"
+                       title="Export" class="pv-ic"><img src="/assets/excel-a40ce78cdd86cac8004163bf736802da.gif" /></a>
+                </div>
+
+                <div class="btn-group btn-filter m-l-10  pv-list-icbx ic-sm hide">
+                    <a href="#" id="filter-button" title="Enable/Disable Filters" class="pv-ic"><i class="md md-filter"
+                                                                                                   aria-hidden="true"></i>
+                    </a>
+                </div>
+
+                <div class="btn-group right-bar-toggle pv-list-icbx ic-sm hide" id="config-view-bt"
+                     data-backdrop="true">
+                    <a href="#" title="Display Fields" class="pv-ic"><i class="fa fa-cog" aria-hidden="true"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <input type="hidden" name="loadData" data-value="true"/>
+</div>
+
+            <!-- Search Box -->
+            <div class="row pv-caselist-fixed-table">
+                <div class="col-sm-12 pv-caselist caselistrecords">
+                    <div class="panel m-b-0">
+                        <!-- End of the search button -->
+                        <div class="pv-sec-bg panel-body m-0">
+                            <div class="dataTables_scroll dataTable_hidden-count" id="listResultsTable">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right Sidebar -->
+<div class="side-bar right-bar caselist-config-panel" id="listResultsTableSideBar">
+    <div class="pv-list-config-action">
+        <a class="ic-sm" href="javascript:void(0);" id="btnSaveListConfig" title="Save Changes"><i class="md md-done"></i> </a>
+        <a class="text-danger ic-sm" href="javascript:void(0);" id="btnCloseListConfig" title="Cancel Changes"><i class="md md-close"></i> </a>
+
+    </div>
+    <div style="overflow: hidden" class="pv-grid-setting-box">
+        <div class="col-sm-12 ">
+            <div class="pv-list-group list-group">
+
+                <div class="inner-shadow-box">
+                    <div class="phead-1 phead">Primary View Fields</div>
+                    <div class="list-group-primary display-config-field short-field" ondragover="event.preventDefault()"></div>
+                </div>
+                <div class="inner-shadow-box">
+                    <div class="phead-2 phead">Secondary View Fields</div>
+                    <div class="list-group-secondary display-config-field2 short-field" ondragover="event.preventDefault()"></div>
+                </div>
+                <div class="inner-shadow-box">
+                    <div class="phead-3 phead">Optional Fields</div>
+                    <div class="list-group-optional display-config-field3 short-field" ondragover="event.preventDefault()"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END Right-bar -->
+        </div>
+    </div>
+
+    <div id="list-config-modal" class="modal slide" tabindex="-1" role="dialog" data-keyboard="false"
+         aria-labelledby="list-config-modal-label">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body"></div>
+
+                <div class="modal-footer text-center"></div>
+            </div>
+        </div>
+    </div>
+    
+<script>
+    var pastDueColor = "#d13636";
+    var highPriColor = "#FFA500";
+    var fceUrl = "/fullCaseEntry/show";
+    var caseEntryUrl = "/caseEntry/show";
+    var rejectedStateId = 7;
+    var finalStateId = 3;
+    var activeStateId = 2;
+    var nonExistentStateId = 10;
+    var closedStateId = 11;
+    var defaultDateRangeKey = "LAST_X_DAYS";
+    var defaultDateRangeValue ="90";
+    var PIIMaskPattern = "#x#x#x#x";
+    var PIIMaskString = "PII";
+    var isIncludeTodayInSearchCriteria = "true";
+</script>
+    <div class="modal fade searchTasksHelp" id="searchTasksHelp" tabindex="-1" role="dialog"
+     aria-labelledby="Search Tasks Help">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <span><b>Search Tasks Help</b></span>
+            </div>
+
+            <div class="modal-body container-fluid">
+                The Search Tasks Text box is used to search tasks based on following fields:<br><br>
+
+                <b>Assigned To:</b>
+                This field captures users to whom tasks are assigned. Searching on this field will display all the tasks which are assigned to the user entered in search field.<br><br>
+
+                <b>Description:</b> This field captures description of the task. Searching on this field will display all the tasks with description containing the text entered in search field.<br><br>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default cancel" data-dismiss="modal">Ok</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+   <!-- Common JS Files -->
+    
+    <script type="application/javascript">
+        var configUpdateDateTime = "08/26/2020 10:41:46";
+        var loginUser = "Load16";
+        var usernameToSavePreference = "Load16";
+        var loggedInUserFullName = "Load16";
+        var privacyLocationsForCase = [1, 99, 73, 79];
+        var corporateTimezone = "GMT";
+        var userTimeZone = "Etc/GMT+12";
+        var defaultTemplateId="2";
+        var currentUserId="244136801";
+        var suspectProductId = 29;
+        var referenceDataUpdateDateTime = "08/26/2020 10:44:45";
+        var priorities = [{"id":1025,"value":"P1","type":"casePriority"},{"id":1026,"value":"P2","type":"casePriority"},{"id":1027,"value":"P3","type":"casePriority"},{"id":1028,"value":"P4","type":"casePriority"},{"id":1029,"value":"P5","type":"casePriority"}];
+        var loggedInUserType = "NON_LDAP";
+        var passwordResetUri = "/password/resetOwnPassword";
+        var authType = "Database";
+        var ssoLogoutUrl = "";
+        var caseJustAuthEnabled = false;
+    </script>
+    <script type="text/javascript" src="/assets/application-a0469687a4859320633b35ed9c5374ee.js" ></script>
+    
+    
+        <script type="text/javascript" src="/assets/vendor/attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.js" ></script>
+    
+    <!-- Begin: Custom Page JavaScript Should Go Here -->
+    
+        <script type="text/javascript" src="/assets/app/task/task-management-manifest-54944cbb50ae76ddf2508b98671b380d.js" ></script>
+
+        <script type="application/javascript">
+        var vendorList = [322696901, 240218135, 240219883];
+            $(document).ready(function () {
+                list.core.init();
+                list.extension.init();
+            });
+        </script>
+    
+    <!-- End: Custom Page JavaScript Should Go Here -->
+</body>
+</html>

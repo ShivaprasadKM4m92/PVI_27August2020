@@ -1,0 +1,21 @@
+<table id="listDataTable" cellspacing="0"
+       class="table table-striped display order-column list-table pv-list-table">
+    <thead class="filter-head">
+    <tr>
+        {{#each columns}}
+            <th class="{{classes}}">
+                <label class="list-column-label">{{label}}<i class="sort fa"></i></label>
+                <div class="list-filter-container">
+                    {{#isSelect2Input inputType}}
+                        <select id="{{name}}" class="form-control list-filter select2" data-field="{{name}}">
+                            <option></option>
+                        </select>
+                    {{else}}
+                        <input id="{{name}}" class="list-filter" type="text" title="{{label}}" data-field="{{name}}"/>
+                    {{/isSelect2Input}}
+                </div>
+            </th>
+        {{/each}}
+    </tr>
+    </thead>
+</table>

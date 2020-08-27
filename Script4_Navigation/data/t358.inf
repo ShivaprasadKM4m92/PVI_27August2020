@@ -1,0 +1,11 @@
+[t358]
+FileName1=t358_listTabButton.html
+URL1=http://10.100.22.243:8081/assets/hbs/input-elements/listTabButton.hbs?_=1598449760398
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_358.xml
+RequestHeaderFile=t358_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t358_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

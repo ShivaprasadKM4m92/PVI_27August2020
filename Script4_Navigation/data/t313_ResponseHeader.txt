@@ -1,0 +1,8 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+X-Application-Context: application:production:8081
+Content-disposition: attachment; filename=Full_Case_Entry_20200800189_20200826014749.pdf
+Content-Type: application/pdf
+Content-Length: 43964
+Date: Wed, 26 Aug 2020 13:47:50 GMT
+

@@ -1,0 +1,11 @@
+[t249]
+FileName1=t249.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/contextMenuTemplate.html?_=1598449507611
+Total=1
+RequestHeaderFile=t249_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t249_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_249.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

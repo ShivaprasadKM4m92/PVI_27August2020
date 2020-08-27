@@ -1,0 +1,11 @@
+[t209]
+FileName1=t209_referenceData.json
+URL1=http://10.100.22.243:8081/task/referenceData?_=1598449306414
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_209.xml
+RequestHeaderFile=t209_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t209_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

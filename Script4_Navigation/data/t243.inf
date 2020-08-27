@@ -1,0 +1,11 @@
+[t243]
+FileName1=t243_244461.json
+URL1=http://10.100.22.243:8081/case/getCaseAttachments/244461?_=1598449329808
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_243.xml
+RequestHeaderFile=t243_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t243_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

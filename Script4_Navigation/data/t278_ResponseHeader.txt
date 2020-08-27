@@ -1,0 +1,8 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+X-Application-Context: application:production:8081
+Content-Disposition: attachment;filename=Intake_Queue_20200826014641.xlsx
+Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
+Content-Length: 23049
+Date: Wed, 26 Aug 2020 13:46:41 GMT
+

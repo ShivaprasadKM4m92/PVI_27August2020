@@ -1,0 +1,11 @@
+GET /assets/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2?v=2.1.99 HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+Origin: http://10.100.22.34:8083
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.34:8083/assets/application-3d87bac6ca7e570033e3b49e320180b2.css
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=3684C28FFFF8D0D77BE03ADB6B09400C; AuthType=Database; SESSION=c2c93194-d7e2-4907-a9db-a5399e8b88b8
+

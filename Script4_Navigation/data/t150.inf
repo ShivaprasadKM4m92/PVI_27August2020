@@ -1,0 +1,11 @@
+[t150]
+FileName1=t150_justificationModalContent.html
+URL1=http://10.100.22.243:8081/assets/common/hbs-templates/justificationModalContent.hbs
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_150.xml
+RequestHeaderFile=t150_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t150_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

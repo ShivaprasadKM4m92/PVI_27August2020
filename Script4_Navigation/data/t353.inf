@@ -1,0 +1,11 @@
+[t353]
+FileName1=t353.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/unsavedChangesOverlayTemplate.html?_=1598449760395
+Total=1
+RequestHeaderFile=t353_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t353_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_353.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

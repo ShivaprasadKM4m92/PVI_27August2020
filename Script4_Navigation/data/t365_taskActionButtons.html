@@ -1,0 +1,15 @@
+<div class="td-box text-center">
+    <div class="btn-group dropdown">
+        <div class="waves-light dropdown-toggle ic-list-action" data-toggle="dropdown" title="Action">
+            <i class="md md-more-vert" aria-hidden="true"></i>
+        </div>
+        <ul class="dropdown-menu fixed-right pv-action-dropdown" role="menu">
+            {{#each actions}}
+                <li class="">
+                    <a href="#" class={{classes}} data-caseId="{{../caseId}}" data-intakeCaseNum="{{../intakeCaseNum}}"
+                       data-intakeCaseVersion="{{../intakeCaseVersion}}" data-rowData="{{../rowData}}">{{label}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+</div>

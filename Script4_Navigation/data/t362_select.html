@@ -1,0 +1,8 @@
+<div id="{{name}}Div" class="{{classes}}">
+<label class="control-label">{{label}}</label>
+<select class="form-control" id="{{name}}" name="{{name}}">
+    {{#each values}}
+    <option name="{{id}}" value="{{label}}" data-id="{{id}}">{{label}}</option>
+    {{/each}}
+</select>
+</div>
