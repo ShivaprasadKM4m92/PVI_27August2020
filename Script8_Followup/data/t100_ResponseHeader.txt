@@ -1,0 +1,10 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+Last-Modified: Sun, 23 Aug 2020 03:00:32 GMT
+ETag: "pv/comp/templates/meddra_template-0b6a763707f0ea9a13f28c9a8e7b2d11.hbs"
+Vary: Accept-Encoding
+Cache-Control: no-cache
+Content-Encoding: gzip
+Content-Length: 376
+Date: Thu, 27 Aug 2020 12:36:57 GMT
+

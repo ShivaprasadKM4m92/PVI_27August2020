@@ -1,0 +1,11 @@
+[t28]
+FileName1=t28_application-13a1ddae267b7b6a32d12cfb1ac98e43.css
+URL1=http://10.100.22.243:8081/assets/application-13a1ddae267b7b6a32d12cfb1ac98e43.css
+Total=1
+ContentType=text/css
+SnapshotXmlFile=snapshot_28.xml
+RequestHeaderFile=t28_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t28_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

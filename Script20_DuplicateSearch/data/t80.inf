@@ -1,0 +1,11 @@
+[t80]
+FileName1=t80_redactionReason.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598522763180
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_80.xml
+RequestHeaderFile=t80_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t80_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

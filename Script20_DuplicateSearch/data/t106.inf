@@ -1,0 +1,11 @@
+[t106]
+FileName1=t106_getActionViewList.json
+URL1=http://10.100.22.243:8081/case/getActionViewList?pageId=4&templateId=3&_=1598522763199
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_106.xml
+RequestHeaderFile=t106_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t106_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

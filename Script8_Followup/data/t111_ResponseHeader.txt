@@ -1,0 +1,12 @@
+HTTP/1.1 200 
+X-Frame-Options: DENY
+X-Application-Context: application:production:8081
+Cache-Control: no-cache, no-store
+Pragma: no-cache
+Content-Type: text/html;charset=UTF-8
+Content-Language: en
+Transfer-Encoding: chunked
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Date: Thu, 27 Aug 2020 12:38:22 GMT
+

@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\FollowUp
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\followup\\logfile.log
+c:\project\pvi\scripts\followup\\combined_FollowUp.c
+c:\project\pvi\scripts\followup\\pre_cci.c

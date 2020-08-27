@@ -1,0 +1,40 @@
+[{
+   "licenses": [
+      {
+         "tradeName": "Rx CISPLATIN ID",
+         "id": 100381,
+         "value": "Rx CISPLATIN ID Investigational Drug AU"
+      },
+      {
+         "tradeName": "Rx CISPLATIN ID",
+         "id": 100382,
+         "value": "Rx CISPLATIN ID Investigational Drug US"
+      },
+      {
+         "tradeName": "Rx CISPLATIN MD",
+         "id": 100380,
+         "value": "Rx CISPLATIN MD Marketed Drug AU"
+      },
+      {
+         "tradeName": "Rx CISPLATIN MD",
+         "id": 100383,
+         "value": "Rx CISPLATIN MD Marketed Drug US"
+      }
+   ],
+   "genericName": "CISPLATIN",
+   "dosageForm": {
+      "id": 480,
+      "value": "Powder for intraocular instillation solution"
+   },
+   "name": "CISPLATIN (3475 POWDER FOR INJECTION STUDY)",
+   "ingredients": [{
+      "id": 3539,
+      "value": "CISPLATIN"
+   }],
+   "id": 100271,
+   "family": {
+      "id": 100156,
+      "value": "Rx EXTERNAL-CISPLATIN"
+   },
+   "value": "CISPLATIN (3475 POWDER FOR INJECTION STUDY) Powder for intraocular instillation solution"
+}]

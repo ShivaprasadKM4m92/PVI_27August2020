@@ -1,0 +1,2 @@
+"data=%7B%22initialCaseId%22%3A20200800190%2C%22accept%22%3Atrue%2C%22safetyCaseNum%22%3A%22%22"
+"%7D"

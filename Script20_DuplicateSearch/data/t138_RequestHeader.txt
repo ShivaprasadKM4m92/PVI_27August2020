@@ -1,0 +1,11 @@
+GET /logout HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Referer: http://10.100.22.34:8083/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=D4773FF3071B9A4C51EA0DB9BFAFC1C3; AuthType=Database; SESSION=a3a526a6-5a34-4d6a-925d-51d9e3e8c419
+

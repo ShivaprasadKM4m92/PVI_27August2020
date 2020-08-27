@@ -1,0 +1,11 @@
+[t18]
+FileName1=t18.json
+URL1=https://update.googleapis.com/service/update2/json?cup2key=10:1983006009&cup2hreq=374a9a4e66a0dbe8edf61ea07e7f4a149838cffd8917917991de4970dadfb322
+Total=1
+RequestHeaderFile=t18_RequestHeader.txt
+RequestBodyFile=t18_RequestBody.txt
+ResponseHeaderFile=t18_ResponseHeader.txt
+ContentType=application/json
+SnapshotXmlFile=snapshot_18.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

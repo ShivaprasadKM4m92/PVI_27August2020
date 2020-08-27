@@ -1,0 +1,11 @@
+[t167]
+FileName1=t167_redactionReason.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598531975930
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_167.xml
+RequestHeaderFile=t167_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t167_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

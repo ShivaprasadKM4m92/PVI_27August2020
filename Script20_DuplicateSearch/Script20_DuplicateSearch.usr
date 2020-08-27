@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Script20_DuplicateSearch.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="DuplicateSearch_01_OpenApplication__*delimiter*__DuplicateSearch_02_Login__*delimiter*__DuplicateSearch_03_NavigateToPVIntake__*delimiter*__DuplicateSearch_04_NavigateToDuplicateSearch__*delimiter*__DuplicateSearch_05_SearchonIntakeFirstReceiptDate__*delimiter*__DuplicateSearch_06_SearchonProduct(intake)__*delimiter*__DuplicateSearch_07_SearchonEvent(intake)__*delimiter*__DuplicateSearch_08_SearchonSeriousness(intake)__*delimiter*__DuplicateSearch_08_SearchonseriousnessproducteventCombination(intake)__*delimiter*__DuplicateSearch_09_SearchOnseriousnessproducteventcombination(Safety)__*delimiter*__DuplicateSearch_10_SearchOnSeriousnessproducteventcombination(Safetyandintake)__*delimiter*__DuplicateSearch_11_SearchonSeriousnessproducteventcombinationcasecountry(Safety)__*delimiter*__DuplicateSearch_12_NavigateToPVAdmin__*delimiter*__DuplicateSearch_13_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+DuplicateSearch_01_OpenApplication=
+DuplicateSearch_02_Login=
+DuplicateSearch_03_NavigateToPVIntake=
+DuplicateSearch_04_NavigateToDuplicateSearch=
+DuplicateSearch_05_SearchonIntakeFirstReceiptDate=
+DuplicateSearch_06_SearchonProduct(intake)=
+DuplicateSearch_07_SearchonEvent(intake)=
+DuplicateSearch_08_SearchonSeriousness(intake)=
+DuplicateSearch_08_SearchonseriousnessproducteventCombination(intake)=
+DuplicateSearch_09_SearchOnseriousnessproducteventcombination(Safety)=
+DuplicateSearch_10_SearchOnSeriousnessproducteventcombination(Safetyandintake)=
+DuplicateSearch_11_SearchonSeriousnessproducteventcombinationcasecountry(Safety)=
+DuplicateSearch_12_NavigateToPVAdmin=
+DuplicateSearch_13_Logout=

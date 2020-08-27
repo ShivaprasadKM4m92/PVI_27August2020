@@ -1,0 +1,11 @@
+[t138]
+FileName1=t138.html
+URL1=http://10.100.22.34:8083/external
+Total=1
+RequestHeaderFile=t138_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t138_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_138.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

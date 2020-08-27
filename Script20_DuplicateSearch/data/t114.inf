@@ -1,0 +1,11 @@
+[t114]
+FileName1=t114_searchMedDRAs.json
+URL1=http://10.100.22.243:8081/PVBRest/searchMedDRAs?browserType=meddra&search_field=llt&search_value=Headache&_=1598522763201
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_114.xml
+RequestHeaderFile=t114_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t114_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

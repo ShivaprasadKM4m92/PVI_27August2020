@@ -1,0 +1,73 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=Script8_Followup.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="FollowUp_01_OpenApplication__*delimiter*__FollowUp_02_Login__*delimiter*__FollowUp_03_NavigateToPVIntake__*delimiter*__FollowUp_04_NavigateDuplicateSearchScreen__*delimiter*__FollowUp_05_SearchCases__*delimiter*__FollowUp_06_CreateAsFollowUp__*delimiter*__FollowUp_07_Back__*delimiter*__FollowUp_08_NewFollowUp__*delimiter*__FollowUp_09_EnterCaseNumberAndClickOkFU__*delimiter*__FollowUp_10_ClickBack__*delimiter*__FollowUp_11_NavigatePVAdmin__*delimiter*__FollowUp_12_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+FollowUp_01_OpenApplication=
+FollowUp_02_Login=
+FollowUp_03_NavigateToPVIntake=
+FollowUp_04_NavigateDuplicateSearchScreen=
+FollowUp_05_SearchCases=
+FollowUp_06_CreateAsFollowUp=
+FollowUp_07_Back=
+FollowUp_08_NewFollowUp=
+FollowUp_09_EnterCaseNumberAndClickOkFU=
+FollowUp_10_ClickBack=
+FollowUp_11_NavigatePVAdmin=
+FollowUp_12_Logout=

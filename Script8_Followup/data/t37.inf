@@ -1,0 +1,11 @@
+[t37]
+FileName1=t37_loadAllState.json
+URL1=http://10.100.22.243:8081/user/loadAllState?pageType=&section=
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_37.xml
+RequestHeaderFile=t37_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t37_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

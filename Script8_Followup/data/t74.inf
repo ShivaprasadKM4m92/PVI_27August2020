@@ -1,0 +1,11 @@
+[t74]
+FileName1=t74_duplicate-search-manifest-0b2a8a36660d47799410a8152206eef0.html
+URL1=http://10.100.22.243:8081/assets/app/duplicate-search/duplicate-search-manifest-0b2a8a36660d47799410a8152206eef0.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_74.xml
+RequestHeaderFile=t74_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t74_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

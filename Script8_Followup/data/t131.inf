@@ -1,0 +1,11 @@
+[t131]
+FileName1=t131_getIngredients.json
+URL1=http://10.100.22.243:8081/getIngredients?mapOfIds=%7B%220%22%3A%5B3539%5D%2C%221%22%3A%5B10260101%5D%2C%222%22%3A%5B3539%5D%2C%223%22%3A%5B10349701%5D%2C%224%22%3A%5B2330%5D%7D&isSpecialField=true&_=1598531906517
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_131.xml
+RequestHeaderFile=t131_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t131_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

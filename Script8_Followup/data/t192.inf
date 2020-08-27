@@ -1,0 +1,11 @@
+[t192]
+FileName1=t192.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/imageStampOverlayTemplate.html?_=1598532002626
+Total=1
+RequestHeaderFile=t192_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t192_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_192.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

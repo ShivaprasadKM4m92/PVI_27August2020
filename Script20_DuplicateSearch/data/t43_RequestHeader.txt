@@ -1,0 +1,11 @@
+GET /assets/glyphicons-halflings-regular-448c34a56d699c29117adc64c43affeb.woff2 HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+Origin: http://10.100.22.243:8081
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.243:8081/assets/application-13a1ddae267b7b6a32d12cfb1ac98e43.css
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=a3e00e5d-6a71-4036-9032-4a5f9898a6af; AuthType=Database
+

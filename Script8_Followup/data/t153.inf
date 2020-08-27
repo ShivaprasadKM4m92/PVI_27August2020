@@ -1,0 +1,11 @@
+[t153]
+FileName1=t153.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/redactionReasonTemplate.html?_=1598531934198
+Total=1
+RequestHeaderFile=t153_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t153_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_153.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

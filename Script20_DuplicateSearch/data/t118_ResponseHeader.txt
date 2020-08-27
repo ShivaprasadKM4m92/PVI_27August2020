@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Content-Type: application/x-protobuf
+Content-Disposition: attachment
+Content-Encoding: gzip
+Date: Thu, 27 Aug 2020 10:00:56 GMT
+Server: ESF
+Content-Length: 2101
+X-XSS-Protection: 0
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+Cache-Control: private
+Age: 488
+Alt-Svc: h3-29=":443"; ma=2592000,h3-27=":443"; ma=2592000,h3-T051=":443"; ma=2592000,h3-T050=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+

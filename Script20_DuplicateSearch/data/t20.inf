@@ -1,0 +1,11 @@
+[t20]
+FileName1=t20_loadTheme.json
+URL1=http://10.100.22.34:8083/preference/loadTheme
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_20.xml
+RequestHeaderFile=t20_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t20_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

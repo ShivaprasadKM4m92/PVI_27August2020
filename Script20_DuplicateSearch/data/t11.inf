@@ -1,0 +1,9 @@
+[t11]
+SnapshotXmlFile=snapshot_11.xml
+FileName1=t11.jpg
+URL1=http://10.100.22.34:8083/assets/pv-btn-bg-fe78a517c666e4e5b987b878badafa68.jpg
+Total=1
+RequestHeaderFile=t11_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t11_ResponseHeader.txt
+ContentType=image/jpeg

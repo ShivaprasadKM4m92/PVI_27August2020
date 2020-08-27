@@ -1,0 +1,10 @@
+GET /assets/application-3d87bac6ca7e570033e3b49e320180b2.css HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://10.100.22.34:8083/?token=60be058f-4bf3-4e25-ad91-91812f413835
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=408E15CF758904EE4B1EDBA12C2D5318; AuthType=Database; SESSION=8f18b2d9-2dac-4b2c-8a06-cdeb6aa3eb7a
+
