@@ -1,0 +1,11 @@
+[t97]
+FileName1=t97_getActionViewList.json
+URL1=http://10.100.22.243:8081/case/getActionViewList?pageId=1&sourceDbId=1&_=1598849168708
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_97.xml
+RequestHeaderFile=t97_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t97_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

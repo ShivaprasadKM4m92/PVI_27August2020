@@ -1,0 +1,11 @@
+[t146]
+FileName1=t146_redactionReason.json
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerJson/redactionReason.json?_=1598849264817
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_146.xml
+RequestHeaderFile=t146_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t146_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

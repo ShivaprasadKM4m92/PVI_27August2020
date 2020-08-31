@@ -1,0 +1,11 @@
+[t222]
+FileName1=t222_referenceData.json
+URL1=http://10.100.22.243:8081/task/referenceData?_=1598849343898
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_222.xml
+RequestHeaderFile=t222_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t222_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,11 @@
+[t22]
+FileName1=t22_materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.html
+URL1=http://10.100.22.34:8083/assets/materialdesignicons-webfont-af3f6dbe172a9c1aba77366a2ff630d1.woff2?v=2.1.99
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_22.xml
+RequestHeaderFile=t22_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t22_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

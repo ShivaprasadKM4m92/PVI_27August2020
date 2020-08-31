@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Project\PVI\Scripts\FUDiFFView
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\project\pvi\scripts\fudiffview\\logfile.log
+c:\project\pvi\scripts\fudiffview\\combined_FUDiFFView.c
+c:\project\pvi\scripts\fudiffview\\pre_cci.c

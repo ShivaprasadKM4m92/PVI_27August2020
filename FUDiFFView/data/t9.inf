@@ -1,0 +1,9 @@
+[t9]
+SnapshotXmlFile=snapshot_9.xml
+FileName1=t9.png
+URL1=http://10.100.22.34:8083/assets/pvi_logo-3b00491e90ab9196bd3d5429e905d856.png
+Total=1
+RequestHeaderFile=t9_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t9_ResponseHeader.txt
+ContentType=image/png

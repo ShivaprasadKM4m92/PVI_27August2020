@@ -1,0 +1,11 @@
+[t249]
+FileName1=t249_getIngredients.json
+URL1=http://10.100.22.243:8081/getIngredients?mapOfIds=%7B%220%22%3A3539%2C%221%22%3A10260101%2C%222%22%3A3539%2C%223%22%3A10349701%2C%224%22%3A2330%7D&isSpecialField=false&_=1598849375717
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_249.xml
+RequestHeaderFile=t249_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t249_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

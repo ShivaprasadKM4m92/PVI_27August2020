@@ -1,0 +1,10 @@
+GET /assets/vendor/attachmentViewer-manifest-b347c0c37643c7b9e173f4b09adae617.js HTTP/1.1
+Host: 10.100.22.243:8081
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+Accept: */*
+Referer: http://10.100.22.243:8081/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: SESSION=24d470d9-2c21-4914-96a0-814d3b247679; AuthType=Database
+

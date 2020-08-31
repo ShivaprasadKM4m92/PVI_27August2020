@@ -1,0 +1,11 @@
+[t19]
+FileName1=t19_fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.html
+URL1=http://10.100.22.34:8083/assets/fontawesome-webfont-af7ae505a9eed503f8b8e6982036873e.woff2?v=4.7.0
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_19.xml
+RequestHeaderFile=t19_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t19_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

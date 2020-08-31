@@ -1,0 +1,11 @@
+[t33]
+FileName1=t33_application-a0469687a4859320633b35ed9c5374ee.html
+URL1=http://10.100.22.243:8081/assets/application-a0469687a4859320633b35ed9c5374ee.js
+Total=1
+ContentType=application/javascript
+SnapshotXmlFile=snapshot_33.xml
+RequestHeaderFile=t33_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t33_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

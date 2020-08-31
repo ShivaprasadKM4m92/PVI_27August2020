@@ -1,0 +1,11 @@
+[t244]
+FileName1=t244.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html?_=1598849375712
+Total=1
+RequestHeaderFile=t244_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t244_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_244.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

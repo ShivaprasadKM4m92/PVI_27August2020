@@ -1,0 +1,11 @@
+[t256]
+FileName1=t256_getActionViewList.json
+URL1=http://10.100.22.243:8081/case/getActionViewList?pageId=3&templateId=2&sourceDbId=1&_=1598849375722
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_256.xml
+RequestHeaderFile=t256_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t256_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

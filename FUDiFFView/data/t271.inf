@@ -1,0 +1,11 @@
+[t271]
+FileName1=t271.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/printTemplate.html?_=1598849409759
+Total=1
+RequestHeaderFile=t271_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t271_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_271.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

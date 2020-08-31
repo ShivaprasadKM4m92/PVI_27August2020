@@ -1,0 +1,75 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=FUDiFFView.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=2020
+MinorVersion=0
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=2020.0.0.0
+DFERebrandFlag=Done
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=2020.0.0.0
+DisableRegenerate=0
+Encoding=UTF8
+Description=
+ScriptLocale=en-IN
+[Actions]
+vuser_init=vuser_init.c
+Action=Action.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Recorded Actions]
+vuser_init=0
+Action=1
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+Action=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+Action=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="FUDiFFView_01_OpenApplication__*delimiter*__FUDiFFView_02_Login__*delimiter*__FUDiFFView_03_NavigateToPVIntake__*delimiter*__FUDiFFView_04_CaseList__*delimiter*__FUDiFFView_SearchCase__*delimiter*__FUDiFFView_05_EditCase__*delimiter*__FUDiFFView_06_ChangeVersion__*delimiter*__FUDiFFView_07_FollowupDiffView__*delimiter*__FUDiFFView_07_Back__*delimiter*__FUDiFFView_08_Back__*delimiter*__FUDiFFView_09_Back__*delimiter*__FUDiFFView_ClearFilter__*delimiter*__FUDiFFView_10_NavigatePVAdmin__*delimiter*__FUDiFFView_11_Logout"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+FUDiFFView_01_OpenApplication=
+FUDiFFView_02_Login=
+FUDiFFView_03_NavigateToPVIntake=
+FUDiFFView_04_CaseList=
+FUDiFFView_SearchCase=
+FUDiFFView_05_EditCase=
+FUDiFFView_06_ChangeVersion=
+FUDiFFView_07_FollowupDiffView=
+FUDiFFView_07_Back=
+FUDiFFView_08_Back=
+FUDiFFView_09_Back=
+FUDiFFView_ClearFilter=
+FUDiFFView_10_NavigatePVAdmin=
+FUDiFFView_11_Logout=

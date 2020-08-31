@@ -1,0 +1,11 @@
+[t267]
+FileName1=t267.html
+URL1=http://10.100.22.243:8081/assets/vendor/documentViewerTemplates/pageRedactionOverlayTemplate.html?_=1598849409757
+Total=1
+RequestHeaderFile=t267_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t267_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_267.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

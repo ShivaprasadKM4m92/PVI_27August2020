@@ -1,0 +1,11 @@
+[t128]
+FileName1=t128_study_browser.html
+URL1=http://10.100.22.243:8081/assets/pv/comp/templates/study_browser.hbs
+Total=1
+ContentType=
+SnapshotXmlFile=snapshot_128.xml
+RequestHeaderFile=t128_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t128_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

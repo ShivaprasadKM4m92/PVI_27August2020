@@ -1,0 +1,11 @@
+GET /preference/loadTheme HTTP/1.1
+Host: 10.100.22.34:8083
+Connection: keep-alive
+Accept: */*
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.83 Safari/537.36
+X-Requested-With: XMLHttpRequest
+Referer: http://10.100.22.34:8083/?token=5aef2121-e30e-4e58-863f-79431fcee221
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: JSESSIONID=8FF88729C7AF4220A6DBE6DDEF836448; AuthType=Database; SESSION=5e7202d3-84a6-49ad-ac5b-2cd830a69efe
+

@@ -1,0 +1,11 @@
+[t273]
+FileName1=t273_1.json
+URL1=http://10.100.22.243:8081/case/rest/list_columns/1?_=1598849409763
+Total=1
+ContentType=application/json
+SnapshotXmlFile=snapshot_273.xml
+RequestHeaderFile=t273_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t273_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
