@@ -56,8 +56,8 @@ Order="DuplicateSearch_01_OpenApplication__*delimiter*__DuplicateSearch_02_Login
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 DuplicateSearch_01_OpenApplication=
 DuplicateSearch_02_Login=
